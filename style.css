@@ -1,0 +1,71 @@
+/* Please do not edit this code */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url("https://i.pinimg.com/736x/91/35/2d/91352d3dccba0b435f5251623a8c29d2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-container{
+    display: flex;
+    height: 95vh;
+    align-items: flex-end;
+}
+#roof1{
+    height:20px;
+    margin:10px auto 0 auto;width: 0;
+    
+    border-style: solid;
+    border-width: 0 120px 120px 120px;
+    border-color: transparent transparent yellow transparent;
+    }
+#wall1{
+      border:2px solid rgb(58, 10, 10);
+      background-color: white;
+      width:200px;
+      height:150px;
+      margin:0px auto; 
+      position:relative;
+    }
+    
+#kitten-image{
+    width: 190px;
+}
+
+#roof2{
+    height:30px;
+    margin:15px auto 0 auto;
+    width: 0;
+    border-style: solid;
+    border-width: 0 200px 200px 200px;
+    border-color: transparent transparent red transparent;
+    }
+#wall2{
+      border:2px solid rgb(58, 10, 10);
+      background-color: white;
+      width:200px;
+      height:200px;
+      margin:0px auto; 
+      position:relative;
+    }
+    
+#puppy-image{
+    width: 160px;
+}
+/* Kisan's father presented him a kitten and a puppy for his birthday, help kisan in building house for his kitten and puppy */
+/* Kisan: Kitten and puppy are different in size so we should build a bigger house for the puppy, can you help me in doing that? */
+/* Iteration 1: Building bigger house for puppy using padding property*/
+
+/* Kisan: I think Puppy's are stronger than kitten's so we should have a strong wall for Puppy, can you help me in building one? */
+/* Itearation 2: Building strong walls for the Puppy using border property */
+
+/* Kisan: Its not advisable to keep Kitten and a puppy close to each other, can you help me seperating their houses*/
+/* Iteration 3: Moving Kitten and puppy away from each other */
+
+
+    
