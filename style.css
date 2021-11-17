@@ -60,12 +60,18 @@ body{
 /* Kisan's father presented him a kitten and a puppy for his birthday, help kisan in building house for his kitten and puppy */
 /* Kisan: Kitten and puppy are different in size so we should build a bigger house for the puppy, can you help me in doing that? */
 /* Iteration 1: Building bigger house for puppy using padding property*/
-
+#wall2{
+    padding: 50px;
+}
 /* Kisan: I think Puppy's are stronger than kitten's so we should have a strong wall for Puppy, can you help me in building one? */
 /* Itearation 2: Building strong walls for the Puppy using border property */
-
+#wall2{
+    border: 20px solid rgb(58, 10, 10);
+}
 /* Kisan: Its not advisable to keep Kitten and a puppy close to each other, can you help me seperating their houses*/
 /* Iteration 3: Moving Kitten and puppy away from each other */
-
+#house2{
+    margin-left: 50%;
+}
 
     
